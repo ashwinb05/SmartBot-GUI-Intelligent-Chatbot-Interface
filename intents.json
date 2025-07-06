@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "tell me your name"],
+      "responses": ["I'm SmartBot, your virtual assistant.", "Call me SmartBot!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "see you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["i need help", "can you help me", "assist me"],
+      "responses": ["Sure! I'm here to assist you. Ask me anything!"]
+    }
+  ]
+}
